@@ -7,10 +7,11 @@
 </head>
 <body>
     
-    Before
-    <br>
+  
+    <%- include('../partials/header.ejs')%>
+    <%- include('../partials/errorMessage.ejs')%>
     <%- body %>
-    <br>
-    After
+    <!-- we use .. to double out in file system from layout.ejs to views than we go again to partials->header.ejs -->
+   
 </body>
 </html>
